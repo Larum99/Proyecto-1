@@ -1,0 +1,31 @@
+npm init --yes Crea el package json con la información del proyecto 
+npm i express Express es un framework de node.js que permite escribir 
+el código del servidor de manera resumida
+npm i mongoose es un driver para conectarse a la base de datos
+mongo para iniciar mongodb
+npm i ejs o ejs-mate motor de plantillas
+npm i connect-flash enviar mensajes entre paginas
+npm i morgan para ver lo que el usuario esta pidiendo peticiones http que 
+llegan al servidor
+npm i passport para hacer autenticaciones 
+npm i passport-local para autenticaciones locales
+npm i bcrypt-nodejs para cifrar contraseñas
+npm i nodemon -D no se instala como dependencia de desarrollo y no principal 
+o modulo principal se instala en dev dependencies
+npm i express-session
+npm i cors para comunicarse con otros servidores ya que se suele hacer el frontend en otros servidores en puerto 4200
+npm i dotenv para variables de entorno 
+npm i jsonwebtoken para autenticar usuarios
+npm i helmet para mayor seguridad, el servidor no dará tanta información
+npm i @babel/core 
+npm i @babel/cli //para usar babel desde consola
+npm i @babel/node 
+npm i @babel/preset-env -D // para utilizar sus ultimas caracteristicas
+los modulos de babel solo se utilizan en desarrollo por eso -D
+
+babel convierte el codigo moderno a codigo viejo con:
+"build": "babel src --out-dir build" //lo cual crea la carpeta de producción
+"dev" para correrlo mientras se desarrolla
+"start" para cuando se ha finalizado
+
+en el package.json se debe agregar en scripts: "dev": "nodemon src/index.js" y en el terminal ejecutar npm run dev

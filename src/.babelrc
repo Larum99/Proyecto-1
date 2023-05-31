@@ -1,0 +1,7 @@
+//este archivo permite especificar que preset se está utilizando
+{
+    "presets":[
+        "@babel/preset-env"
+    ]
+}
+
